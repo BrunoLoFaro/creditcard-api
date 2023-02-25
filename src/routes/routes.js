@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import path from 'path'
 let __dirname = path.resolve();
 //dotenv.config({path:__dirname+'/config/config.env'})
-dotenv.config({path:'../config/.env'})
+dotenv.config({path:'./config/.env'})
 
 mongoose.connect(
     process.env.MONGODB_URI, 
